@@ -1,0 +1,92 @@
+/* TODO this website is awesome section isn't sharing the same background color as the header logo section */
+body {
+    height: 100vh;
+    margin: 0 0 0 0;
+}
+
+/* All div styles */
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header-logo-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/* All font styles */
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.information-header-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#thor-signature {
+    /* TODO duplicated information header text with slight changes */
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul, li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 5px;
+    /* TODO: this is duplication */
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-up-section {
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+    flex-grow: 1;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.sign-up-section-description-and-button {
+
+}
+
+#doge-image {
+
+}
+
