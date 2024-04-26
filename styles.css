@@ -25,6 +25,7 @@ body {
     font-size: 18px;
     color: #e5e7eb;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
 }
 
 .header-logo-text {
@@ -38,7 +39,12 @@ body {
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
+    margin-bottom: 0px;
+    margin-top: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-y:auto;
+    max-height: 3.2em; /* Approximately two lines of text */
+    line-height: 1.6em; /* Set line height to control spacing */
 }
 
 .information-header-text {
@@ -77,16 +83,39 @@ ul, li {
     display: flex;
     margin-right: 10%;
     margin-left: 10%;
-    flex-grow: 1;
+    justify-content: space-between;
     margin-bottom: 10%;
     margin-top: 5%;
 }
 
 .sign-up-section-description-and-button {
-
+    margin-right: 5%;
 }
 
 #doge-image {
+ min-width: 66%;
+ height: 400px;
+}
 
+button {
+ background-color: #3882F6;
+ border-radius: 10px;
+ border-style:  none;
+ width: 30%;
+ font-weight: bold;
+ padding: 10px;
+
+}
+
+.box-image-items-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box-image-item {
+    /* TODO fix the box item images being too big */
+    width: 20%;
+    height: 20%;
 }
 
