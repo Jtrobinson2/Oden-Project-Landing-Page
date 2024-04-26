@@ -110,6 +110,7 @@ button {
 .box-image-items-container {
     display: flex;
     justify-content: space-between;
+    
 
 }
 
@@ -117,5 +118,14 @@ button {
     /* TODO fix the box item images being too big */
     width: 20%;
     height: 20%;
+}
+
+.box-image-item img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 5px;
 }
 
