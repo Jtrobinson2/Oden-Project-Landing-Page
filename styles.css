@@ -1,4 +1,3 @@
-/* TODO this website is awesome section isn't sharing the same background color as the header logo section */
 body {
     height: 100vh;
     margin: 0 0 0 0;
@@ -101,21 +100,19 @@ button {
  background-color: #3882F6;
  border-radius: 10px;
  border-style:  none;
- width: 30%;
+ width: 120px;
+ height: 41px;
  font-weight: bold;
  padding: 10px;
-
 }
 
 .box-image-items-container {
     display: flex;
     justify-content: space-between;
-    
-
+    margin-bottom: 10%;
 }
 
 .box-image-item {
-    /* TODO fix the box item images being too big */
     width: 20%;
     height: 20%;
 }
@@ -128,4 +125,62 @@ button {
     border-color: #3882F6;
     border-width: 5px;
 }
+
+/* inherit hero secondary text style with a slighlty different color */
+.box-image-item p {
+    color: #1F2937;
+    text-align: center;
+}
+
+.some-random-info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-section {
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-color: #E5E7EB;
+}
+
+#thor-signature {
+    text-align: right;
+}
+
+.call-to-action-section {
+ background-color: #3882F6;
+ margin-right: 15%;
+ margin-left: 15%;
+ padding: 20px;
+ display: flex;
+ justify-content: space-around;
+ flex-flow: row wrap;
+ align-items: center;
+ margin-bottom: 5%;
+ margin-top: 5%;
+ /* TODO add the last thing a corner radius */
+}
+
+/* change the button in the call to action section only */
+.call-to-action-section button {
+    border: 2px solid white;
+    max-height: auto;
+}
+
+/* inherit header logo but get rid of that margin in the call to action section */
+.call-to-action-section .header-logo-text {
+    margin-bottom: 0px;
+}
+
+.footer {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 100px;
+}
+
 
