@@ -109,7 +109,7 @@ button {
 .box-image-items-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10%;
+    margin-bottom: 9%;
 }
 
 .box-image-item {
@@ -161,7 +161,7 @@ button {
  align-items: center;
  margin-bottom: 5%;
  margin-top: 5%;
- /* TODO add the last thing a corner radius */
+ border-radius: 10px;
 }
 
 /* change the button in the call to action section only */
